@@ -8,18 +8,6 @@ import Button from "./Button";
 
 const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 
-/*************  ✨ Codeium Command ⭐  *************/
-/**
- * NavBar component
- *
- * @returns {JSX.Element} - The JSX element that represents the navbar
- *
- * The navbar component is responsible for displaying the navigation links,
- * the audio button and the logo. It also manages the state of the audio button
- * and the visibility of the navbar. The navbar is hidden when the user scrolls
- * down and shown when the user scrolls up.
- */
-/******  4d3984bc-f916-47a6-bd51-58f1d3ca25e4  *******/
 const NavBar = () => {
   // State for toggling audio and visual indicator
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
